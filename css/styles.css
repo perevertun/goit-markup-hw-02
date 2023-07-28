@@ -1,8 +1,16 @@
-/**
-  |============================
-  | Head section
-  |============================
-*/
+:root{
+--primary-font: 'Roboto', sans-serif;
+--second-font: 'Raleway', sans-serif;
+--iris: #4D5AE5;
+--navy-blue: #2E2F42;
+--ocean: #404BBF;
+--slate-body-text: #2E2F42;
+}
+
+
+body {
+    font-family: var(--primary-font);
+}
 
 
 /**
@@ -10,6 +18,25 @@
   | Header section
   |============================
 */
+.logo-iris {
+    color: var(--iris);
+    font-family: var(--second-font);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0,03 em;
+    text-transform: uppercase;
+}
+
+.logo-navy-blue {
+    color: var(--navy-blue);
+    font-family: var(--second-font);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0,03 em;
+    text-transform: uppercase;
+}
 
 /**
   |============================
