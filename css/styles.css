@@ -2,7 +2,7 @@
 --iris: #4D5AE5;
 --navyblue: #2E2F42;
 --ocean: #404BBF;
---slate: #2E2F42;
+--slate: #434455;
 --white: #FFFFFF;
 --green: #31D0AA;
 --light-slate: #8E8F99;
@@ -24,17 +24,11 @@ body{
     background-color: var(--white);
 }
 
-ul{
-  list-style-type: none;
-}
-
 address{
   font-style: normal;
-}
-
-a{
-  text-decoration: none;
   color: var(--slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 button{
@@ -42,24 +36,12 @@ button{
   cursor: pointer;
 }
 
-h1 {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: var(--white);
+.list {
+  list-style: none;
 }
 
-h2{
-  color: var(--navyblue);
-  font-size: 36px;
-  font-weight: 700;
-}
-
-h3{
-  color: var(--navyblue);
-  font-size: 20px;
-  font-weight: 500;
+.link {
+  text-decoration: none;
 }
 /**
   |============================
@@ -67,37 +49,40 @@ h3{
   |============================
 */
 /* logo */
-.logo-iris{
+.logo-color-iris{
     color: var(--iris);
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 0, 21;
-    letter-spacing: 0, 03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-.logo-navy-blue{
+.logo-color-navyblue{
     color: var(--navyblue);
-    font-family: var(--second-font);
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
-    letter-spacing: 0,03 em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 /* Navigation */
-.nav-link{
+.nav-link-portfolio{
 color: var(--navyblue);
 font-weight: 500;
+text-decoration: none;
 }
 
-.style-address{
-color: var(--slate);
+.nav-link-portfolio:hover,
+.nav-link-portfolio:focus{
+  color: #404bbf;
 }
+
 
 
 /**
@@ -108,15 +93,37 @@ color: var(--slate);
 .style-button-portfolio{
   color: var(--iris);
   font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: var(--cornflower);
 }
 
 .style-button-portfolio:hover,
 .style-button-portfolio:active{
   color: var(--white);
-  background-color: var(--ocean);
+  background-color: #404BBF;
 }
 
+/**
+  |============================
+  | Portfolio section
+  |============================
+*/
+
+.portfolio-section-p{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.portfolio-section-h3{
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--navyblue);
+}
 /**
   |============================
   | Footer section
@@ -126,9 +133,9 @@ footer{
   background-color: var(--navyblue);
 }
 
-.logo-cloud{
+.logo-color-cloud{
   color: var(--cloud);
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 0, 21;
@@ -146,12 +153,67 @@ footer{
   |============================
 */
 
-.section-hero{
+.section-hero-bg{
   background-color: var(--navyblue);
 }
 
 .style-button-hero{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white);
   font-weight: 500;
   background-color: var(--iris);
 }
+
+.style-button-hero:hover,
+.style-button-hero:focus{
+background-color: #404BBF;
+}
+
+.hero-style-h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+/**
+  |============================
+  | Strategy section
+  |============================
+*/
+.style-section-p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.style-section-h3 {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--navyblue);
+}
+
+.style-name-h2 {
+  color: var(--navyblue);
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/**
+  |============================
+  | Team section
+  |============================
+*/
+.section-team-style{
+  background-color: var(--cloud);
+}
+
