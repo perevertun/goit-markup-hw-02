@@ -228,6 +228,7 @@ footer {
   line-height: 0, 21;
   letter-spacing: 0, 03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .text-footer-p {
