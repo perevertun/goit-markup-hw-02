@@ -33,7 +33,7 @@ button{
 
 .link {
   text-decoration: none;
-  color: var(--slate);
+  color: currentColor;
 }
 /**
   |============================
