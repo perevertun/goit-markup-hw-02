@@ -74,7 +74,7 @@ text-decoration: none;
 
 .nav-link-portfolio:hover,
 .nav-link-portfolio:focus{
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 .header-address-style {
@@ -87,7 +87,7 @@ text-decoration: none;
 
 .header-address-style:hover,
 .header-address-style:focus{
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 
@@ -111,7 +111,7 @@ text-decoration: none;
 .style-button-portfolio:hover,
 .style-button-portfolio:active{
   color: var(--white);
-  background-color: #404BBF;
+  background-color: var(--ocean);
 }
 
 /**
@@ -157,7 +157,7 @@ text-decoration: none;
 
 .style-button-hero:hover,
 .style-button-hero:focus{
-background-color: #404BBF;
+background-color: var(--ocean);
 }
 
 .style-h-one {
@@ -199,7 +199,7 @@ background-color: #404BBF;
 }
 
 .team-bg-white{
-  background-color: #FFFFFF;
+  background-color: var(--white);
 }
 
 /**
