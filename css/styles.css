@@ -14,6 +14,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1,5;
@@ -27,11 +28,11 @@ button{
   cursor: pointer;
 }
 
-.list {
+.list{
   list-style: none;
 }
 
-.link {
+.link{
   text-decoration: none;
   color: currentColor;
   font-style: normal;
@@ -79,7 +80,7 @@ text-decoration: none;
   color: var(--ocean);
 }
 
-.header-address-style{
+.address-header-styl{
   font-style: normal;
   text-decoration: none;
   color: var(--slate);
@@ -88,8 +89,8 @@ text-decoration: none;
   text-decoration: none;
 }
 
-.header-address-style:hover,
-.header-address-style:focus{
+.address-header-styl:hover,
+.address-header-styl:focus{
   color: var(--ocean);
 }
 
@@ -163,7 +164,7 @@ text-decoration: none;
 background-color: var(--ocean);
 }
 
-.style-h-one {
+.style-h-one{
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -177,13 +178,13 @@ background-color: var(--ocean);
   | Strategy section
   |============================
 */
-.style-section-p {
+.style-section-p{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
 
-.style-h-three {
+.style-h-three{
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -191,7 +192,7 @@ background-color: var(--ocean);
   color: var(--navyblue);
 }
 
-.style-h-two {
+.style-h-two{
   color: var(--navyblue);
   font-size: 36px;
   line-height: 1.11;
@@ -219,11 +220,11 @@ background-color: var(--ocean);
   | Footer section
   |============================
 */
-footer {
+footer{
   background-color: var(--navyblue);
 }
 
-.logo-color-cloud {
+.logo-color-cloud{
   color: var(--cloud);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -234,7 +235,7 @@ footer {
   text-decoration: none;
 }
 
-.text-footer-p {
+.text-footer-p{
   color: var(--cloud);
   line-height: 1.5;
   letter-spacing: 0.02em;
