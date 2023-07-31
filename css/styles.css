@@ -79,7 +79,7 @@ text-decoration: none;
   color: var(--ocean);
 }
 
-.header-address-style {
+.header-address-style{
   font-style: normal;
   text-decoration: none;
   color: var(--slate);
@@ -111,12 +111,8 @@ text-decoration: none;
   background-color: var(--cloud);
 }
 
-.style-button-portfolio:active{
-  color: var(--white);
-  background-color: var(--ocean);
-}
-
-.style-button-portfolio:hover{
+.style-button-portfolio:hover,
+.style-button-portfolio:focus{
   color: var(--white);
   background-color: var(--ocean);
 }
