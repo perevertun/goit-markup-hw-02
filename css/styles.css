@@ -220,7 +220,7 @@ background-color: var(--ocean);
   | Footer section
   |============================
 */
-footer{
+.footer-bg-color{
   background-color: var(--navyblue);
 }
 
