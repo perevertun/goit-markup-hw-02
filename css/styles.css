@@ -34,6 +34,7 @@ button{
 .link {
   text-decoration: none;
   color: currentColor;
+  font-style: normal;
 }
 
 /**
@@ -50,6 +51,7 @@ button{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .logo-color-navyblue{
@@ -78,11 +80,12 @@ text-decoration: none;
 }
 
 .header-address-style {
-  text-decoration: none;
   font-style: normal;
+  text-decoration: none;
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .header-address-style:hover,
@@ -105,11 +108,15 @@ text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--cornflower);
+  background-color: var(--cloud);
 }
 
-.style-button-portfolio:hover,
 .style-button-portfolio:active{
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.style-button-portfolio:hover{
   color: var(--white);
   background-color: var(--ocean);
 }
